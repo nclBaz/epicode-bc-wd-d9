@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Events Playground</title>
+    <link rel="stylesheet" href="/assets/css/index.css" />
+  </head>
+  <body>
+    <h1>JavaScript Events Playground</h1>
+    <nav>
+      <a href="index.html">Event Playground</a> |
+      <a href="register.html">Register</a>
+    </nav>
+
+    <section id="mouse-events">
+      <h2>Mouse Events</h2>
+      <button id="clickButton">Click me</button>
+      <button id="dblClickButton">Double Click me</button>
+      <div id="hoverArea">Hover over me</div>
+      <p id="mouseOutput"></p>
+    </section>
+
+    <section id="keyboard-events">
+      <h2>Keyboard Events</h2>
+      <input type="text" id="keyInput" placeholder="Type something..." />
+      <p id="keyOutput"></p>
+    </section>
+
+    <section id="group-elements">
+      <h2>TARGET/CURRENT TARGET</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis doloribus deleniti recusandae dolores porro vel consequatur ut commodi
+        harum, deserunt, itaque quibusdam nulla quis, officiis a minima rerum beatae laboriosam!
+      </p>
+
+      <button>Button</button>
+    </section>
+
+    <section id="delegation">
+      <h2>Event Delegation</h2>
+      <ul id="itemsList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+      <p id="delegationOutput"></p>
+      <button id="addItemBtn">Add New Item</button>
+    </section>
+
+    <section id="scrollSection">
+      <h2>Scroll Event</h2>
+      <p id="scrollInfo">Scroll to see changes in this text...</p>
+      <div style="height: 1000px"></div>
+    </section>
+
+    <section id="other-events">
+      <h2>Other Events</h2>
+      <p id="loadMessage"></p>
+      <p id="resizeMessage"></p>
+    </section>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

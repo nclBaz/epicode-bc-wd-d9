@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/register.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Event Playground</a> |
+      <a href="register.html">Register</a>
+    </nav>
+
+    <h1>Register</h1>
+
+    <form id="registerForm">
+      <label>
+        Full Name:
+        <input type="text" id="fullName" required placeholder="Enter full name" />
+      </label>
+
+      <label>
+        Email:
+        <input type="email" id="email" required placeholder="Enter email" />
+      </label>
+
+      <label>
+        Username:
+        <input type="text" id="username" required placeholder="Enter username" />
+      </label>
+
+      <label>
+        Password:
+        <input type="password" id="password" required minlength="4" placeholder="Enter your password" />
+      </label>
+
+      <label>
+        Confirm Password:
+        <input type="password" id="confirmPassword" required placeholder="Re-enter your password" />
+      </label>
+
+      <label>
+        Date of Birth:
+        <input type="date" id="dob" required />
+      </label>
+
+      <label>
+        <input type="checkbox" id="terms" required />
+        I agree to the Terms and Conditions
+      </label>
+
+      <button type="submit">Register</button>
+    </form>
+
+    <p id="formMessage"></p>
+
+    <script src="assets/js/register.js"></script>
+  </body>
+</html>
